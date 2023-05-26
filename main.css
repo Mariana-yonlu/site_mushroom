@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+h1{
+    color: #04ff8e;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+    font-weight: normal;
+}
+header,
+section h2,
+h3{
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-weight: normal;
+    color:#1b0066; 
+    font-size: 45px;
+}
+header{
+    padding: 4px 0;
+    background-image:url(./midia/headerfundo.png);
+}
+body{
+    background-color: #35bfff92;
+}
+header nav li{
+    display: inline;
+    width:100%;
+    margin: 0 auto;
+}
+header nav li a{
+    color: #04ff8e;
+    font-size: 20px;
+    font-family: 'Concert one', cursive;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 1280px;
+    width:100%;
+    margin: 0 auto;
+}
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.brands-list img{
+    height: 24px;
+}
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    align-items: center;
+}
+section p{
+    font-family: 'Sigmar', cursive;
+    font-size: 14px;
+     margin-bottom: 8px;
+}
+.front{
+    height:400px;
+}
+.banner{
+    padding: 8px;
+    height: 200px;
+}
+.social img{
+    height: 50px;
+}
+.social li{
+    display: inline;
+    margin-left: 10px;
+}
+.social li a{
+    text-decoration: none;
+}
+#contato .container{
+    display: block;
+}
+.metodos{
+    justify-content:space-evenly;
+    display: flex;
+    align-items:normal;
+}
+.metodos h3{
+    margin-top: 129px;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+}
+
+.logopage{
+    height:190px;  
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+form button {
+    background-color: #521861;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #43008f;
+}
+
+input:focus, 
+textarea:focus {
+    outline-color: #1b0066 ;
+}
+
+footer {
+    background-color: #a68cc4;
+    padding: 16px 0;
+}
+.terra{
+    padding: 12px;
+    background-image:url(./midia/planeta_terra.png);
+    text-align: center;
+    
+}
+.saudeFisica{
+    padding: 24px;
+    background-image:url(./midia/saude_fisica.png);
+    text-align: center;
+}
+.forest{
+    padding:12px;
+    background-image: url(./midia/forest.png);
+    text-align:center;
+}
+.forest h3{
+    color: #ff0095;
+}
+.terra h3{
+    height: auto;
+    font-weight: normal;
+    color: rgb(141, 0, 0);
+} 
+.cogu{
+    height: 400px;
+}
+.mush{
+    height: 300px;
+}
+.room{
+    height: 350px;
+}
+#planeta .container a{
+    text-decoration: none;
+    font-family:'Concert One', cursive;
+    color: #ff004c;
+}
+.saudeFisica h3{
+color: rgb(1, 69, 13);
+}
